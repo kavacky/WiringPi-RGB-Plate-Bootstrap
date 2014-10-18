@@ -4,4 +4,4 @@ Full initialization of display, LED backlight and buttons for a C program that o
 
 Examples of custom character graphics and reading button state included.
 
-Compile: gcc -Wall -o wiring_plate wiring_plate.c -lwiringPi -lwiringPiDev
+Compile: `gcc -Wall -o wiring_plate wiring_plate.c -lwiringPi -lwiringPiDev`
