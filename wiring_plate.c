@@ -46,10 +46,10 @@ int main ()
 
 	// Unused & off
 	pinMode(AF_RW, OUTPUT);
-	digitalWrite(AF_RW, LOW);
+	digitalWrite(AF_RW, HIGH);
 
 	int lcd;
-	lcd = lcdInit(2, 16, 4, AF_RS, AF_E, AF_DB4,AF_DB5,AF_DB6,AF_DB7, 0, 0, 0, 0);
+	lcd = lcdInit(2, 16, 4, AF_RS, AF_E, AF_DB4, AF_DB5, AF_DB6, AF_DB7, 0, 0, 0, 0);
 
 	// Useless shit down here
 	unsigned char d[6][8] =
