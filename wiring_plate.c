@@ -46,7 +46,7 @@ int main ()
 
 	// Unused & off
 	pinMode(AF_RW, OUTPUT);
-	digitalWrite(AF_RW, HIGH);
+	digitalWrite(AF_RW, LOW); // LOW is really off unlike for LEDs; won't work if HIGH
 
 	int lcd;
 	lcd = lcdInit(2, 16, 4, AF_RS, AF_E, AF_DB4, AF_DB5, AF_DB6, AF_DB7, 0, 0, 0, 0);
